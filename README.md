@@ -10,7 +10,6 @@
     <script src="script.js" defer></script>
 </head>
 <body bgcolor="#2A0237">
-        
 <!-- Menu -->
         <header>
                 <nav>
@@ -32,20 +31,35 @@
                         </ul>
                 </nav>        
         </header>
+        <main></main>
         <script src="script.js"></script>
 
-<!-- Corpo do site -->
         <div class="container">
-                <h1><style>@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
-                </style>Receitas:</h1>
-                <div class="cards">
-                        <a href="doces.html"><img src="img/Doces.png" alt="" id="img1"></a>
-                        <a href="salgados.html"><img src="img/salgados.png" alt="" id="img2"></a>
-                        <a href="diarias.html"><img src="img/diarias.png" alt="" id="img3"></a>
-                </div>
+
+<!--Textinho-->
+        <div class="fonte">
+                <p><div class="texto"> O principal objetivo da nossa equipe é democratizar o acesso á uma boa alimentação, independente
+                        de suas preferências alimentares ou de sua classe social. Por meio desse projeto tentamos mostrar ao mundo a importância
+                        da boa alimentação e das boas práticas ao saber quem compra seus ingredientes.
+                </p>
+        <P> Conheça melhor cada um de nós, idealizadores do EasyReci: 
+        </div></P>
+
+<!--Integrantes-->
+        <div class="integrantes1">
+                <img src="img/BIA.png" id="img1">
+                <img src="img/gaby.png" id="img2">
+        </div>
+        <div class="integrantes2">
+                <img src="img/joao.png" id="img1">
+                <img src="img/arildo.png" id="img2">
+        </div>
+        <div class="antes">
                 <div class="logofinal">
                         <img src="img/finalLogo.png" alt="">
                 </div>
+        </div>
+        
         </div>
 </body>
 </html>
